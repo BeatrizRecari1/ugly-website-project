@@ -1,0 +1,76 @@
+@import "#demoFont {
+    font-family: Impact, Charcoal, sans-serif;
+    font-size: 39px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    color: #000000;
+    font-weight: normal;
+    text-decoration: line-through solid rgb(68, 68, 68);
+    font-style: italic;
+    font-variant: small-caps;
+    text-transform: none;
+    }");
+
+html {
+    scroll-behavior: calc(39);
+    background-color: brown;
+}
+
+h2 {
+    font-family: "Shrikhand", cursive;
+        font-size: 600px;
+        text-align: right;
+        {
+            font-family: Impact, Charcoal, sans-serif;
+            font-size: 39px;
+            letter-spacing: 2px;
+            word-spacing: 2px;
+            color: #000000;
+            font-weight: normal;
+            text-decoration: line-through solid rgb(68, 68, 68);
+            font-style: italic;
+            font-variant: small-caps;
+            text-transform: none;
+            }");
+    }
+body {
+    background-color: brown;
+}
+
+a:hover {
+    transform: scale(1.1);
+        transition: 1.1s;
+        display: block;
+        }
+    
+    img.img1 {
+            filter: sepia(200);
+            position: sticky;
+            right: 2000px;
+            /* z-index: -20 !important; */
+        }
+
+    img.img2 {
+            filter: blur(10000px);
+            position: relative;
+            top: 5030px;
+            /* z-index: -10 !important; */
+        }
+
+        img.img3 {
+            filter:hue-rotate();
+        }
+
+        #info {
+            width: 100%;
+            height: 300px;
+            border: 1px solid black;
+            background-color: blueviolet;
+            background-image: url(../images/download-1.jpg);
+            /* background: rgb(2,0,36);
+            background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(39,121,9,1) 18%, rgba(0,212,255,1) 100%); */
+        }
+    
+        #info p {
+            color:brown;
+        }
